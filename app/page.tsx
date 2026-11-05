@@ -1,4 +1,4 @@
-const whatsappNumber = "SEU_NUMERO_AQUI"; // Troque pelo número com DDI + DDD, somente números.
+const whatsappNumber = 55021993534300; // Troque pelo número com DDI + DDD, somente números.
 const whatsappBase = `https://wa.me/${whatsappNumber}`;
 
 function WhatsAppLink({ message, children, className = "button button-primary" }: {
